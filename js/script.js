@@ -24,9 +24,7 @@ console.log(`La bici più leggera è ${name} con un peso di ${weight} kg.`);
 function ganerateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  
- 
-// Funzione per generare un numero casuale compreso tra min e max inclusi
+
 function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
